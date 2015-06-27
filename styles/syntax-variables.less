@@ -4,28 +4,28 @@
 // include a syntax-variables.less file.
 
 // General colors
-@syntax-text-color: @base0;
-@syntax-comment-color: @base01;
-@syntax-emphasized-color: @base1;
-@syntax-cursor-color: @base3;
-@syntax-selection-color: lighten(@base02, 4%);
-@syntax-selection-flash-color: @base1;
-@syntax-background-color: @base03;
+@syntax-text-color: @base2;
+@syntax-comment-color: @base1;
+@syntax-emphasized-color: @base3;
+@syntax-cursor-color: #fff;
+@syntax-selection-color: @base01;
+@syntax-selection-flash-color: @base00;
+@syntax-background-color: @base02;
 
 // Guide colors
-@syntax-wrap-guide-color: @base02;
-@syntax-indent-guide-color: fadeout(@base00, 80%);
-@syntax-invisible-character-color: fadeout(@base00, 80%);
+@syntax-wrap-guide-color: @base1;
+@syntax-indent-guide-color: fadeout(@base1, 80%);
+@syntax-invisible-character-color: fadeout(@base1, 80%);
 
 // For find and replace markers
 @syntax-result-marker-color: @cyan;
 @syntax-result-marker-color-selected: @base3;
 
 // Gutter colors
-@syntax-gutter-text-color: @base0;
-@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
-@syntax-gutter-background-color: @base02;
-@syntax-gutter-background-color-selected: lighten(@base02, 6%);
+@syntax-gutter-text-color: @base1;
+@syntax-gutter-text-color-selected: @base1;
+@syntax-gutter-background-color: @base03;
+@syntax-gutter-background-color-selected: @base03;
 
 // For git diff info. i.e. in the gutter
 @syntax-color-renamed: @blue;
@@ -43,6 +43,6 @@
 @syntax-color-class: @red;
 @syntax-color-keyword: @green;
 @syntax-color-tag: @blue;
-@syntax-color-attribute: @syntax-comment-color;
+@syntax-color-attribute: @base1;
 @syntax-color-import: @red;
-@syntax-color-snippet: @syntax-color-keyword;
+@syntax-color-snippet: @green;

@@ -19,6 +19,9 @@ atom-text-editor, :host {
 
   .gutter .line-number {
     opacity: 1;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    font-size: 0.8em;
   }
 
   .gutter .line-number.folded,
@@ -44,12 +47,11 @@ atom-text-editor, :host {
 // see: https://github.com/atom/bracket-matcher/issues/46
 .bracket-matcher .region {
   background-color: fadeout(@syntax-comment-color, 20%);
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .comment {
   color: @syntax-comment-color;
-  font-style: italic;
 }
 
 .entity {
@@ -126,7 +128,6 @@ atom-text-editor, :host {
 }
 
 .invalid.deprecated {
-  text-decoration: underline;
   color: @red;
 }
 
@@ -161,7 +162,6 @@ atom-text-editor, :host {
 
   .constant.character.escape {
     color: @red;
-    font-weight: bold;
   }
 
   .punctuation.string {
