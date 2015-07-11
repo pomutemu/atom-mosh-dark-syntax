@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.4.0",
   "description": "A chocolatey syntax highlighting theme for Atom",
-  "repository": "https://github.com/pomutemu/atom-mosh-dark-syntax",
+  "repository": "pomutemu/atom-mosh-dark-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
