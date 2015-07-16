@@ -1,7 +1,7 @@
 {
   "name": "mosh-dark-syntax",
   "theme": "syntax",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "A chocolatey syntax highlighting theme for Atom",
   "repository": "pomutemu/atom-mosh-dark-syntax",
   "license": "MIT",
